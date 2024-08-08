@@ -1,0 +1,56 @@
+body {
+  background-color: #f5f5f5;
+  font-family: "Arial", sans-serif;
+}
+
+.card {
+  margin-top: 50px;
+}
+
+.card-body {
+  justify-self: center;
+}
+.card-title {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.saved-cards {
+  margin-bottom: 20px;
+}
+
+.card-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.card-item img {
+  width: 50px;
+}
+
+.card-item span {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.form-group label {
+  font-weight: 600;
+}
+
+.btn-success {
+  width: 100%;
+  margin-top: 20px;
+}
+.buttonpay {
+  color: aqua;
+}
+
+.submit {
+  color: blue;
+}

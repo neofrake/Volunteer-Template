@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image and Text Layout with Navigation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+  </style>
+  <body>
+    <div class="s3_container">
+      <div class="s3_arrow left-arrow" id="s3_prevBtn">&#10094;</div>
+      <div class="s3_content">
+        <img
+          id="s3_articleImage"
+          src="https://via.placeholder.com/150"
+          alt="Placeholder Image"
+        />
+        <div class="s3_text-content">
+          <h2 id="s3_articleTitle">Title Goes Here</h2>
+          <p id="s3_articleText">
+            This is a sample text that goes on the right side of the image. You
+            can add more content here, such as descriptions, details, or
+            anything you want to convey.
+          </p>
+        </div>
+      </div>
+      <div class="s3_arrow right-arrow" id="nextBtn">&#10095;</div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

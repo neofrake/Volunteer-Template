@@ -1,0 +1,35 @@
+body {
+    background: #000;
+    padding: 2%;
+    margin: 5%;
+}
+.container {
+    text-align: center;
+}
+.button_2, .button_1 {
+    padding: 1vh 5vh;
+    font-size: larger;
+}
+.out_text_container {
+    padding-top: 15%;
+}
+.text_content {
+    padding-bottom: 15%;
+}
+/* Keyframes for animation */
+@keyframes scaleAnimation {
+    0% {
+        transform: scale(0.9);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(0.9);
+    }
+}
+/* Apply animation to the text */
+.animated-text {
+    display: inline-block;
+    animation: scaleAnimation 2s infinite alternate;
+}
